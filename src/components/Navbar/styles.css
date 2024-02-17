@@ -1,0 +1,19 @@
+.navbar-area a {
+    text-decoration: none;
+}
+
+.navbar-area h4 {
+    color: #FFF;
+    margin: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.nav-logo {
+    display: flex;
+    
+}
