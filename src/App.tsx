@@ -1,13 +1,13 @@
 import './assets/styles/custom.scss';
 import './App.css';
 import Navbar from 'components/Navbar';
-import Home from 'pages/Home';
+import FindAccount from 'pages/FindAccount';
 
 function App() {
   return (
     <>
       <Navbar />
-      <Home />
+      <FindAccount />
     </>
   );
 }
