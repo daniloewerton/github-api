@@ -1,0 +1,50 @@
+.account-container {
+    background-color: #F5F5F5;
+    display: flex;
+    padding: 50px;
+    width: 1251px;
+    height: 334px;
+    border-radius: 8px;
+    margin-top: 80px;
+}
+
+.image-box img {
+    width: 247px;
+    height: 247px;
+}
+
+.info-box {
+    margin-left: 25px;
+    background-color: #FFF;
+    width: 902px;
+    height: 247px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+.info-box h5 {
+    color: #1890FF;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.info-box h6 {
+    border: 1px solid #D9D9D9;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 3px 0 0 10px;
+    border-radius: 5px;
+    width: 872px;
+    height: 30px;
+    color: #737373;
+}
+
+.response-field {
+    font-size: 16px;
+    font-weight: initial;
+}
