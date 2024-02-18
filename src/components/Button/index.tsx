@@ -2,12 +2,13 @@ import './styles.css';
 
 type Props = {
     content: string;
+    type?: "button" | "submit" | "reset";
 }
 
-function Button({ content } : Props) {
+function Button({ content, type } : Props) {
   return (
     <div>
-      <button type="button" className="btn btn-primary button">
+      <button type={type} className="btn btn-primary button">
         {content}
       </button>
     </div>
